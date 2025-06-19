@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Konversi TXT ke VCF</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Konversi TXT ke VCF</h1>
+
+    <div class="form-group">
+      <label>Nama Kontak Admin:</label>
+      <input type="text" id="adminName" placeholder="Contoh: ADMIN">
+    </div>
+
+    <div class="form-group">
+      <label>Nama Kontak Asoy:</label>
+      <input type="text" id="asoyName" placeholder="Contoh: ASOY">
+    </div>
+
+    <div class="form-group">
+      <label>Nama Kontak Member:</label>
+      <input type="text" id="memberName" placeholder="Contoh: MEMBER">
+    </div>
+
+    <div class="form-group">
+      <label>Upload File TXT:</label>
+      <input type="file" id="fileInput" multiple accept=".txt" />
+    </div>
+
+    <div id="filesArea"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
